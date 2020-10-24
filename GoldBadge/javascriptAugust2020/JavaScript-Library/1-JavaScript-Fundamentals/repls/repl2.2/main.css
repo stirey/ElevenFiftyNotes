@@ -1,0 +1,16 @@
+#imageOne {
+    border-radius: 300px;
+    border: 5px yellow;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#imageTwo {
+    border-radius: 300px;
+    border: 10px yellow;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  
+}

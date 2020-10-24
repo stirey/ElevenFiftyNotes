@@ -1,0 +1,22 @@
+.wrapper{
+    margin: 5px;
+}
+
+/*4*/
+
+p{
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+dt{
+    font-weight: bold;
+    font-size: 20px;
+
+
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+</head>
+<body>
+
+    <div class="outerbox">
+
+        <div id="box1" class="innerbox">
+        <h1>Box 1</h1>
+        </div>
+        <div id="box2" class="innerbox">
+        <h1>Box 2</h1>
+        </div>
+
+    </div>
+<div id="nTest">
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+<div class="unit"></div>
+
+</div>
+
+
+
+
+<style>
+.outerbox {
+    width: 100%;
+    height: 500px;
+    background-color: violet;
+    display:flex;
+    flex-direction: row-reverse;
+    align-items:center;
+    justify-content: space-evenly;
+
+  
+
+}
+
+.innerbox {
+    width: 40%;
+    height: 300px;
+    background-color: orange;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box1 {
+    align-self: flex-start;
+
+}
+#box2 {
+    align-self: flex-end;
+}
+    
+ #nTest {
+     width:110px;
+     height: 110px;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+
+ }   
+
+ .unit{
+     width: 10px;
+     height: 10px; 
+     background-color: green;
+ }
+
+.unit:nth-of-type(10n){
+    background-color: red;
+    animation: blinking 5s infinite;
+}
+
+@keyframes blinking {
+    0% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: lightcoral;
+ }
+
+ 0% {
+     background-color: blueviolet; 
+     margin: 20px;
+}
+
+}
+</style>
+
+
+
+
+</body>
+</html>

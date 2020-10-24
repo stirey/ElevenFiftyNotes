@@ -1,0 +1,103 @@
+/*
+Border shorthand looks like this:
+p{
+    border: 5px solid red;
+}
+The order is: border-width border-style(required) border-color
+*/
+
+body{
+    background-color: lightblue
+}
+
+.wrapper{
+    margin: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+#title-p{
+    text-align: center;
+
+}
+
+.border-style li{
+    margin: 5px;
+}
+
+.border-style li:nth-child(1){
+    border-style: dotted;
+}
+
+.border-style li:nth-child(2){
+    border-style: dashed;
+}
+
+.border-style li:nth-child(3){
+    border-style: solid;
+}
+
+.border-style li:nth-child(4){
+    border-style: double;
+}
+
+.border-style li:nth-child(5){
+    border-style: groove;
+}
+
+.border-style li:nth-child(6){
+    border-style: ridge;
+}
+
+.border-style li:nth-child(7){
+    border-style: inset;
+}
+
+.border-style li:nth-child(8){
+    border-style: none;
+}
+
+.border-style li:nth-child(9){
+    border-style: hidden;
+}
+
+.border-style li:nth-child(10){
+    border-style: dotted dashed solid double;
+}
+
+.border-width p{
+    border-style: solid;
+    border-width: 5px;
+}
+
+#four-widths{
+    border-style: solid;
+    border-width: 2px 10px 4px 80px;
+}
+
+/* 7 */
+.border-color li:nth-child(1){
+    margin: 5px;
+    border-style: solid;
+    border-color: blue;
+}
+
+.border-color li:nth-child(2){
+    margin: 5px;
+    border-style: solid;
+    border-color: #eee;
+}
+
+.border-color li:nth-child(3){
+    margin: 5px;
+    border-style: solid;
+    border-color: rgb(100,0,100);
+}
+
+.border-color li:nth-child(4){
+    margin: 5px;
+    border-style: solid;
+    border-color: transparent;
+}

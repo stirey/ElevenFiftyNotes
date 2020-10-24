@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+
+    <h2>Basic Form with input field</h2>
+    <div class="form-one">
+        <form>
+            <p><label>Customer Name: <input></label></p>
+            <p><label>Street Address: <input></label></p>
+            <p><label>City: <input></label></p>
+            <p><label>Area Code: <input></label></p>
+            <p><label>Telephone: <input></label></p>
+        </form>
+    </div>
+
+    <br/>
+
+    <form>
+        <fieldset>
+            <legend> Customer Information </legend>
+            <p><label>Customer name: <input></label></p>
+            <p><label>Telephone: <input type-tel></label></p>
+            <p><label>E-mail address: <input type=email></label></p>
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend>Biggest Burritos in the World!</legend>
+            <p><input type="radio" name="size" id="size0"/><label for="size0"> Humongous </label></p>
+            <p><input type="radio" name="size" id="size1"/><label for="size1"> Double-Humongous</label></p>
+            <p><input type="radio" name="size" id="size2" /><label for="size2"> Triple-Humongous</label></p>
+            <p><input type="radio" name="size" id="size3" /><label for="size3"> Just A Small, Please</label></p>
+        </fieldset>
+        <br />
+        <fieldset>
+             <legend>Fixins</legend>
+             <p><input type="checkbox" name="fixins" id="onions"><label for="onions"> Sauteed Onions </label></p>
+             <p><input type="checkbox" name="fixins" id="guacamole"><label for="guacamole"> Guacamole </label></p>
+             <p><input type="checkbox" name="fixins" id="queso"><label for="queso"> Queso </label></p>
+             <p><input type="checkbox" name="fixins" id="lettuce"><label for="lettuce"> Lettuce </label></p>
+             <p><input type="checkbox" name="fixins" id="beans"><label for="beans"> Refried Beans </label></p>
+             <p><input type="checkbox" name="fixins" id="rice"><label for="rice"> Rice </label></p>
+        </fieldset>
+        <br />
+        <fieldset>
+             <p>Preferred delivery time: <input type=time min="11:00" max="21:00" step="900"></p>
+             <p>Delivery instructions: <textarea></textarea></p>
+             <p><button>Submit order</button></p>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
