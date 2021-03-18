@@ -68,7 +68,7 @@ function displayResults(json) { // creating a function to take jsonified data an
     } else {  //going through the entire array of items one by one and do the following(iterate over that array in the else)
         for (let i = 0; i < articles.length; i++) {
             // console.log(i);
-            //creates placeholders for information gained from the articles. we have not referenced where to go to get the object yet. page display results 02. Here we created an article variable that will create a node in the COM tha tis an article element
+            //creates placeholders for information gained from the articles. we have not referenced where to go to get the object yet. page display results 02. Here we created an article variable that will create a node in the DOM tha tis an article element
             let article = document.createElement('article');
             //created a heading variable that creates a node in the DOM that is an h2 element
             let heading = document.createElement('h2');
